@@ -62,11 +62,13 @@ class _CustomCartItemQuantityRowState extends State<CustomCartItemQuantityRow> {
         SizedBox(width: 16.w),
         InkWell(
           borderRadius: BorderRadius.circular(40.r),
-          onTap: () {
-            setState(() {
-              count--;
-            });
-          },
+          onTap: count > 1
+              ? () {
+                  setState(() {
+                    count--;
+                  });
+                }
+              : null,
           child: Container(
             width: 24.r,
             height: 24.r,
@@ -74,14 +76,14 @@ class _CustomCartItemQuantityRowState extends State<CustomCartItemQuantityRow> {
               shape: OvalBorder(
                 side: BorderSide(
                   width: 1,
-                  color: Color(0xFF4E5562),
+                  color: count > 1 ? Color(0xFF4E5562) : Colors.grey[400]!,
                 ),
               ),
             ),
             child: Icon(
               Icons.remove,
               size: 17.sp,
-              color: Color(0xFF4E5562),
+              color: count > 1 ? Color(0xFF4E5562) : Colors.grey[400]!,
             ),
           ),
         ),

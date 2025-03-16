@@ -28,12 +28,14 @@ class HomeRemoteDataSourceImp extends HomeRemoteDataSource {
   @override
   Future<List<String>> fetchCategories() async {
     var response = await apiService.get(endPoint: AppLinks.categories);
+    if (response == null || response is! List<dynamic>) {
+      return [];
+    } else {
+      List<String> cats = (response).map((e) => e.toString()).toList();
 
-    List<String> cats =
-        (response as List<dynamic>).map((e) => e.toString()).toList();
-
-    saveCategoriesData(cats, HiveKeys.kCategories);
-    return cats;
+      saveCategoriesData(cats, HiveKeys.kCategories);
+      return cats;
+    }
   }
 }
 

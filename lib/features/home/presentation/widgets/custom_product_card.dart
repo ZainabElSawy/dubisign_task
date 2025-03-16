@@ -58,7 +58,7 @@ class ProductCard extends StatelessWidget {
               left: 0,
               bottom: -22.5,
               child: Container(
-                padding: EdgeInsets.all(7.w),
+                padding: EdgeInsets.all(6.w),
                 decoration: BoxDecoration(
                   color: AppColors.backgroundColor,
                   shape: BoxShape.circle,

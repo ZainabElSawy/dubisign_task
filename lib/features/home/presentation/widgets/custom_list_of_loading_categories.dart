@@ -21,7 +21,7 @@ class CustomListOfLoadingCategories extends StatelessWidget {
           width: 90.w,
           borderRadius: 26.r,
           duration: Duration(milliseconds: 500),
-          depth: 10,
+          depth: 7,
         ),
       ),
     );
