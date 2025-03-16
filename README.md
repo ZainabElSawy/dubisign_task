@@ -1,4 +1,4 @@
-# 🛍️ Flutter E-Commerce App
+# 🛍️ Flutter E-Commerce App Task
 
 ## 📌 Overview
 This is a Flutter-based e-commerce application developed as part of the Dubisign assessment. The app replicates a Figma UI and integrates with FakeStoreAPI to provide a seamless shopping experience. It supports offline functionality, smooth animations, and follows clean architecture principles.
