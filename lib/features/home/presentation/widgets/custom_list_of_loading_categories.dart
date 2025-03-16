@@ -16,7 +16,7 @@ class CustomListOfLoadingCategories extends StatelessWidget {
         itemCount: 6,
         itemBuilder: (context, index) => ShimmerPro.sized(
           light: ShimmerProLight.lighter,
-          scaffoldBackgroundColor: Colors.grey[300]!,
+          scaffoldBackgroundColor: Colors.grey[400]!,
           height: 40.h,
           width: 90.w,
           borderRadius: 26.r,

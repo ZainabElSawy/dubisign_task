@@ -46,7 +46,7 @@ class LoadingProductCard extends StatelessWidget {
                 ),
                 child: ShimmerPro.sized(
                   light: ShimmerProLight.lighter,
-                  scaffoldBackgroundColor: Colors.grey[300]!,
+                  scaffoldBackgroundColor: Colors.grey[400]!,
                   height: 190.h,
                   width: double.infinity,
                   borderRadius: 15.r,
@@ -66,7 +66,7 @@ class LoadingProductCard extends StatelessWidget {
                 ),
                 child: ShimmerPro.sized(
                   light: ShimmerProLight.lighter,
-                  scaffoldBackgroundColor: Colors.grey[300]!,
+                  scaffoldBackgroundColor: Colors.grey[400]!,
                   height: 40.h,
                   width: 40.w,
                   borderRadius: 20.r,
@@ -92,7 +92,7 @@ class LoadingProductCard extends StatelessWidget {
         SizedBox(height: 10.h),
         ShimmerPro.sized(
           light: ShimmerProLight.lighter,
-          scaffoldBackgroundColor: Colors.grey[300]!,
+          scaffoldBackgroundColor: Colors.grey[400]!,
           height: 15.h,
           width: 100.w,
           borderRadius: 10.r,
@@ -101,7 +101,7 @@ class LoadingProductCard extends StatelessWidget {
         ),
         ShimmerPro.sized(
           light: ShimmerProLight.lighter,
-          scaffoldBackgroundColor: Colors.grey[300]!,
+          scaffoldBackgroundColor: Colors.grey[400]!,
           height: 15.h,
           width: 70.w,
           borderRadius: 10.r,
