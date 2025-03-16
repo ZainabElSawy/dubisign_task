@@ -100,5 +100,5 @@ This project is for assessment purposes only.
 
 ---
 
-Developed by **Zainab** 🚀
+Developed by **Zainab Hamdy** 🚀
 
