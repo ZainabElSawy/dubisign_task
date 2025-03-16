@@ -6,9 +6,9 @@ This is a Flutter-based e-commerce application developed as part of the Dubisign
 ## 📸 Screenshots  
 | Home Screen  | Product Details | Cart |
 |--------------|-----------------|------|
-| ![Home](assets/screenshots/home.png)         | ![Details](assets/screenshots/details.png)         | ![Cart](assets/screenshots/cart.png) |
+| ![Home](assets/screenshots/home.png)         | ![Details](assets/screenshots/more_details.png)    | ![Cart](assets/screenshots/cart.png) |
 | ![Home](assets/screenshots/home_refresh.png) | ![Details](assets/screenshots/minimal_details.png) |                                      |
-| ![Home](assets/screenshots/home_loading.png) |                                                    |                                      |
+| ![Home](assets/screenshots/home_loading.png) | ![Details](assets/screenshots/details.png)         |                                      |
 
 ## ✨ Features
 - **Figma UI Replication**: Implemented product grid, cart screen, and swipe gestures  
